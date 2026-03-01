@@ -1,0 +1,202 @@
+[
+  {
+    "iso3": "ARG",
+    "country": "Argentina",
+    "pred_strain_before": 0.5167050989579437,
+    "pred_strain_after": 0.42790318888416096,
+    "delta_pred_strain": 0.08880191007378274,
+    "access_final": 76.28,
+    "doctors_final": 2.7699999999999996,
+    "beds_final": 5.1899999999999995
+  },
+  {
+    "iso3": "AUS",
+    "country": "Australia",
+    "pred_strain_before": 0.575676738179134,
+    "pred_strain_after": 0.49715157808537164,
+    "delta_pred_strain": 0.07852516009376237,
+    "access_final": 75.25,
+    "doctors_final": 2.7699999999999996,
+    "beds_final": 5.07
+  },
+  {
+    "iso3": "BRA",
+    "country": "Brazil",
+    "pred_strain_before": 0.43756871455609464,
+    "pred_strain_after": 0.3503897716261051,
+    "delta_pred_strain": 0.08717894292998957,
+    "access_final": 75.50999999999999,
+    "doctors_final": 2.7699999999999996,
+    "beds_final": 5.349999999999999
+  },
+  {
+    "iso3": "CAN",
+    "country": "Canada",
+    "pred_strain_before": 0.456035848711544,
+    "pred_strain_after": 0.45036103980678965,
+    "delta_pred_strain": 0.005674808904754358,
+    "access_final": 75.85,
+    "doctors_final": 2.7899999999999996,
+    "beds_final": 5.24
+  },
+  {
+    "iso3": "CHN",
+    "country": "China",
+    "pred_strain_before": 0.5141879544184886,
+    "pred_strain_after": 0.4658768960737499,
+    "delta_pred_strain": 0.048311058344738755,
+    "access_final": 75.59,
+    "doctors_final": 2.82,
+    "beds_final": 5.14
+  },
+  {
+    "iso3": "FRA",
+    "country": "France",
+    "pred_strain_before": 0.4175584073389842,
+    "pred_strain_after": 0.39949237349241945,
+    "delta_pred_strain": 0.018066033846564744,
+    "access_final": 75.37,
+    "doctors_final": 2.83,
+    "beds_final": 5.119999999999999
+  },
+  {
+    "iso3": "DEU",
+    "country": "Germany",
+    "pred_strain_before": 0.4404593772399407,
+    "pred_strain_after": 0.4301007527739477,
+    "delta_pred_strain": 0.010358624465993005,
+    "access_final": 76.125,
+    "doctors_final": 2.7699999999999996,
+    "beds_final": 5.355
+  },
+  {
+    "iso3": "IND",
+    "country": "India",
+    "pred_strain_before": 0.41462019884236573,
+    "pred_strain_after": 0.3984409105501625,
+    "delta_pred_strain": 0.01617928829220322,
+    "access_final": 76.195,
+    "doctors_final": 2.7,
+    "beds_final": 5.265
+  },
+  {
+    "iso3": "IDN",
+    "country": "Indonesia",
+    "pred_strain_before": 0.5345491762981005,
+    "pred_strain_after": 0.49122842848996795,
+    "delta_pred_strain": 0.043320747808132554,
+    "access_final": 75.69,
+    "doctors_final": 2.77,
+    "beds_final": 5.24
+  },
+  {
+    "iso3": "ITA",
+    "country": "Italy",
+    "pred_strain_before": 0.6395343438362577,
+    "pred_strain_after": 0.5881623670904268,
+    "delta_pred_strain": 0.05137197674583094,
+    "access_final": 75.22,
+    "doctors_final": 2.72,
+    "beds_final": 5.27
+  },
+  {
+    "iso3": "JPN",
+    "country": "Japan",
+    "pred_strain_before": 0.4427462604029684,
+    "pred_strain_after": 0.3772124970448171,
+    "delta_pred_strain": 0.06553376335815131,
+    "access_final": 75.53,
+    "doctors_final": 2.73,
+    "beds_final": 5.349999999999998
+  },
+  {
+    "iso3": "MEX",
+    "country": "Mexico",
+    "pred_strain_before": 0.5341596279160183,
+    "pred_strain_after": 0.49444512370292637,
+    "delta_pred_strain": 0.03971450421309197,
+    "access_final": 75.895,
+    "doctors_final": 2.7399999999999998,
+    "beds_final": 5.359999999999999
+  },
+  {
+    "iso3": "NGA",
+    "country": "Nigeria",
+    "pred_strain_before": 0.5945681135953114,
+    "pred_strain_after": 0.5832345198331906,
+    "delta_pred_strain": 0.01133359376212073,
+    "access_final": 75.01,
+    "doctors_final": 2.72,
+    "beds_final": 5.279999999999999
+  },
+  {
+    "iso3": "RUS",
+    "country": "Russia",
+    "pred_strain_before": 0.3534650413850599,
+    "pred_strain_after": 0.35173576289387576,
+    "delta_pred_strain": 0.0017292784911841497,
+    "access_final": 76.35,
+    "doctors_final": 2.8,
+    "beds_final": 5.36
+  },
+  {
+    "iso3": "SAU",
+    "country": "Saudi Arabia",
+    "pred_strain_before": 0.5127408205345447,
+    "pred_strain_after": 0.464775096876436,
+    "delta_pred_strain": 0.04796572365810875,
+    "access_final": 75.365,
+    "doctors_final": 2.77,
+    "beds_final": 5.14
+  },
+  {
+    "iso3": "ZAF",
+    "country": "South Africa",
+    "pred_strain_before": 0.49391396788253256,
+    "pred_strain_after": 0.39017600162200794,
+    "delta_pred_strain": 0.10373796626052462,
+    "access_final": 76.39,
+    "doctors_final": 2.8099999999999983,
+    "beds_final": 5.27
+  },
+  {
+    "iso3": "KOR",
+    "country": "South Korea",
+    "pred_strain_before": 0.5859982394524644,
+    "pred_strain_after": 0.498357824551632,
+    "delta_pred_strain": 0.08764041490083241,
+    "access_final": 76.22,
+    "doctors_final": 2.73,
+    "beds_final": 5.189999999999998
+  },
+  {
+    "iso3": "TUR",
+    "country": "Turkey",
+    "pred_strain_before": 0.5026468386219961,
+    "pred_strain_after": 0.40861451488749057,
+    "delta_pred_strain": 0.09403232373450554,
+    "access_final": 76.12,
+    "doctors_final": 2.7849999999999993,
+    "beds_final": 5.205
+  },
+  {
+    "iso3": "GBR",
+    "country": "UK",
+    "pred_strain_before": 0.46879969534863014,
+    "pred_strain_after": 0.423993787122213,
+    "delta_pred_strain": 0.04480590822641717,
+    "access_final": 76.36,
+    "doctors_final": 2.7299999999999995,
+    "beds_final": 5.1899999999999995
+  },
+  {
+    "iso3": "USA",
+    "country": "USA",
+    "pred_strain_before": 0.513248582315998,
+    "pred_strain_after": 0.4337194099683766,
+    "delta_pred_strain": 0.07952917234762141,
+    "access_final": 76.54,
+    "doctors_final": 2.74,
+    "beds_final": 5.469999999999999
+  }
+]

@@ -2,7 +2,9 @@
    Global Health Strain Index 2024
    =========================== */
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -25,7 +27,9 @@
   --color-neutral: #30363d;
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   background-color: var(--bg);
@@ -37,7 +41,7 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 .top-bar {
@@ -183,7 +187,7 @@ html, body, #root {
   font-size: 12px !important;
 }
 
-.ant-table-thead > tr > th {
+.ant-table-thead>tr>th {
   background: var(--surface-2) !important;
   color: var(--text-muted) !important;
   font-size: 11px !important;
@@ -194,7 +198,7 @@ html, body, #root {
   text-transform: uppercase;
 }
 
-.ant-table-tbody > tr > td {
+.ant-table-tbody>tr>td {
   background: transparent !important;
   color: var(--text-primary) !important;
   border-bottom: 1px solid var(--border) !important;
@@ -202,7 +206,7 @@ html, body, #root {
   transition: background 0.15s ease !important;
 }
 
-.ant-table-tbody > tr:hover > td {
+.ant-table-tbody>tr:hover>td {
   background: var(--surface-2) !important;
 }
 
@@ -341,17 +345,124 @@ html, body, #root {
   background: var(--text-muted);
 }
 
+/* ─── Delta legend gradient ───────────────────────────── */
+.legend-gradient-delta {
+  background: linear-gradient(to right, #1a7a3f, #5dc46b, #a3dba8, #91d3d9, #f5c89a, #f5a623, #f85149) !important;
+}
+
+/* ─── Country Detail ──────────────────────────────────── */
+.detail-section-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.ant-statistic-title {
+  font-size: 10px !important;
+  color: var(--text-muted) !important;
+}
+
+.ant-statistic-content-value {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* ─── Allocations Panel ───────────────────────────────── */
+.allocations-panel {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 16px 24px 20px;
+  flex-shrink: 0;
+  max-height: 480px;
+  overflow-y: auto;
+}
+
+.allocations-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.allocations-header h2 {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+}
+
+.alloc-summary {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 12px;
+  padding: 10px 16px;
+  background: var(--surface-2);
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.alloc-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.alloc-stat-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.alloc-stat-value {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.alloc-top5 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.alloc-top5-item {
+  display: inline-flex;
+  align-items: center;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 2px 8px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  color: var(--text-secondary);
+}
+
+.alloc-top5-item:hover {
+  border-color: var(--accent);
+  background: var(--accent-glow);
+  color: var(--text-primary);
+}
+
 /* ─── Responsive ─────────────────────────────────────── */
 @media (max-width: 900px) {
   .main-content {
     flex-direction: column;
   }
+
   .side-panel {
     width: 100%;
     border-left: none;
     border-top: 1px solid var(--border);
     height: 260px;
   }
+
   .top-bar {
     flex-wrap: wrap;
   }
